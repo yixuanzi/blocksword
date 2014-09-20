@@ -1,0 +1,492 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABUSER_ALERT	include/sysconfig.h	28;"	d
+ABUSER_ALERT_FORMAT	include/sysconfig.h	32;"	d
+ABUSER_LOG	include/sysconfig.h	29;"	d
+ABUSER_LOG_FORMAT	include/sysconfig.h	34;"	d
+AUDIT_ALERT	include/sysconfig.h	13;"	d
+AUDIT_LOG	include/sysconfig.h	14;"	d
+CC	makefile	/^CC=gcc$/;"	m
+DECODE_STREAM	include/sysconfig.h	16;"	d
+DYNAMIC_FILE	include/sysconfig.h	19;"	d
+DYNAMIC_MODULE	include/sysconfig.h	15;"	d
+ETHERNET	include/ip.h	23;"	d
+FUNC_ALERT	include/func.h	6;"	d
+FUNC_GO	include/func.h	7;"	d
+FUNC_HTTPAGENT	include/func.h	20;"	d
+FUNC_HTTPARGS	include/func.h	16;"	d
+FUNC_HTTPCOOKIE	include/func.h	19;"	d
+FUNC_HTTPGARGS	include/func.h	17;"	d
+FUNC_HTTPHEAD	include/func.h	22;"	d
+FUNC_HTTPINFO	include/func.h	14;"	d
+FUNC_HTTPPARGS	include/func.h	18;"	d
+FUNC_HTTPSERVER	include/func.h	21;"	d
+FUNC_HTTPURL	include/func.h	15;"	d
+FUNC_ICMPDATA	include/func.h	9;"	d
+FUNC_ICMPINFO	include/func.h	8;"	d
+FUNC_LOG	include/func.h	5;"	d
+FUNC_TCPDATA	include/func.h	11;"	d
+FUNC_TCPINFO	include/func.h	10;"	d
+FUNC_UDPDATA	include/func.h	13;"	d
+FUNC_UDPINFO	include/func.h	12;"	d
+HTTP_DESC	include/func.h	40;"	d
+HTTP_LHOST	include/func.h	42;"	d
+HTTP_LURL	include/func.h	41;"	d
+HTTP_STATUS	include/func.h	39;"	d
+ICMP_CODE	include/func.h	25;"	d
+ICMP_LDATA	include/func.h	26;"	d
+ICMP_TEYP	include/func.h	24;"	d
+IGNORE_IP	include/sysconfig.h	17;"	d
+IGNORE_PORT	include/sysconfig.h	18;"	d
+INSPERCT_HTTP	include/sysconfig.h	9;"	d
+INSPERCT_ICMP	include/sysconfig.h	12;"	d
+INSPERCT_TCP	include/sysconfig.h	10;"	d
+INSPERCT_UDP	include/sysconfig.h	11;"	d
+LD	makefile	/^LD=ld$/;"	m
+LOCAL_IP	include/sysconfig.h	6;"	d
+LOCAL_MASK	include/sysconfig.h	7;"	d
+LOCAL_PATH	include/sysconfig.h	8;"	d
+OUT_TYPE	include/sysconfig.h	27;"	d
+REASON_ALERT	include/sysconfig.h	30;"	d
+REASON_ALERT_FORMAT	include/sysconfig.h	33;"	d
+REASON_LOG	include/sysconfig.h	31;"	d
+REASON_LOG_FORMAT	include/sysconfig.h	35;"	d
+RULE_DECODE_MSG1	include/sysconfig.h	24;"	d
+RULE_DECODE_MSG2	include/sysconfig.h	25;"	d
+RULE_DECODE_MSG3	include/sysconfig.h	26;"	d
+RULE_FILE	include/sysconfig.h	20;"	d
+RULE_IGNORE_CHAR	include/sysconfig.h	21;"	d
+RULE_IGNORE_IP	include/sysconfig.h	22;"	d
+RULE_IGNORE_PORT	include/sysconfig.h	23;"	d
+TCP_DIP	include/func.h	30;"	d
+TCP_DPORT	include/func.h	31;"	d
+TCP_FLAG	include/func.h	32;"	d
+TCP_SIP	include/func.h	28;"	d
+TCP_SPORT	include/func.h	29;"	d
+TYPE	include/type.h	2;"	d
+UDP_DIP	include/func.h	36;"	d
+UDP_DPORT	include/func.h	37;"	d
+UDP_SIP	include/func.h	34;"	d
+UDP_SPORT	include/func.h	35;"	d
+_CRT_SECURE_NO_WARNINGS	pcap/bspcap.c	6;"	d	file:
+__ANALYSIS__	include/analysis.h	2;"	d
+__unused	include/icmp.h	/^			ushort __unused;$/;"	m	struct:icmpp::__anon5::__anon7
+_addself	abuse/abuse.c	/^int _addself(struct rule *r,struct variable_func *var){$/;"	f
+_alert	abuse/abuse.c	/^int _alert(struct rule *r,struct variable_func *var){$/;"	f
+_delself	abuse/abuse.c	/^int _delself(struct rule *r,struct variable_func *var){$/;"	f
+_equal	abuse/abuse.c	/^int _equal(struct rule *r,struct variable_func *var){$/;"	f
+_go	abuse/abuse.c	/^int _go(struct rule *r,struct variable_func *var){$/;"	f
+_greater	abuse/abuse.c	/^int _greater(struct rule *r,struct variable_func *var){$/;"	f
+_httpagent	abuse/abuse_http.c	/^int _httpagent(struct rule *r,struct variable_func *var){$/;"	f
+_httpargs	abuse/abuse_http.c	/^int _httpargs(struct rule *r,struct variable_func *var){$/;"	f
+_httpcookie	abuse/abuse_http.c	/^int _httpcookie(struct rule *r,struct variable_func *var){$/;"	f
+_httpgargs	abuse/abuse_http.c	/^int _httpgargs(struct rule *r,struct variable_func *var){$/;"	f
+_httphead	abuse/abuse_http.c	/^int _httphead(struct rule *r,struct variable_func *var){$/;"	f
+_httpinfo	abuse/abuse_http.c	/^int _httpinfo(struct rule *r,struct variable_func *var){$/;"	f
+_httppargs	abuse/abuse_http.c	/^int _httppargs(struct rule *r,struct variable_func *var){$/;"	f
+_httpserver	abuse/abuse_http.c	/^int _httpserver(struct rule *r,struct variable_func *var){$/;"	f
+_httpurl	abuse/abuse_http.c	/^int _httpurl(struct rule *r,struct variable_func *var){$/;"	f
+_icmpdata	abuse/abuse.c	/^int _icmpdata(struct rule *r,struct variable_func *var){$/;"	f
+_icmpinfo	abuse/abuse.c	/^int _icmpinfo(struct rule *r,struct variable_func *var){$/;"	f
+_less	abuse/abuse.c	/^int _less(struct rule *r,struct variable_func *var){$/;"	f
+_log	abuse/abuse.c	/^int _log(struct rule *r,struct variable_func *var){$/;"	f
+_tcpdata	abuse/abuse.c	/^int _tcpdata(struct rule *r,struct variable_func *var){$/;"	f
+_tcpinfo	abuse/abuse.c	/^int _tcpinfo(struct rule *r,struct variable_func *var){$/;"	f
+_udpdata	abuse/abuse.c	/^int _udpdata(struct rule *r,struct variable_func *var){$/;"	f
+_udpinfo	abuse/abuse.c	/^int _udpinfo(struct rule *r,struct variable_func *var){$/;"	f
+_unequal	abuse/abuse.c	/^int _unequal(struct rule *r,struct variable_func *var){$/;"	f
+abaformat	include/sysconfig.h	/^	char *abaformat;\/\/滥用告警输出格式$/;"	m	struct:out_print
+abalert	include/sysconfig.h	/^	char *abalert;\/\/滥用检测告警日志路径$/;"	m	struct:out_print
+ablformat	include/sysconfig.h	/^	char *ablformat;\/\/滥用记录输出格式$/;"	m	struct:out_print
+ablog	include/sysconfig.h	/^	char *ablog;\/\/滥用检测记录日志路径$/;"	m	struct:out_print
+abuse_h	include/abuse.h	2;"	d
+abuse_http_request	abuse/abuse_http.c	/^int abuse_http_request(struct http_request *hr,struct info *cinfo,struct iport *ipt){$/;"	f
+abuse_http_response	abuse/abuse_http.c	/^int abuse_http_response(struct http_response *hp, struct info *cinfo, struct iport *ipt){$/;"	f
+abuse_icmp	abuse/abuse_icmp.c	/^int abuse_icmp(struct icmpp *icmp){$/;"	f
+abuse_tcp	abuse/abuse_tcp.c	/^int abuse_tcp(struct tcpp *tcp){$/;"	f
+abuse_udp	abuse/abuse_udp.c	/^int abuse_udp(struct udpp *udp){$/;"	f
+ack	include/tcp.h	/^		ushort ack:1;$/;"	m	struct:tcpp::dss
+ack	include/tcp.h	/^	uint ack;$/;"	m	struct:tcpp
+adres	pcap/ntest.c	/^adres (struct tuple4 addr)$/;"	f
+agent	include/http.h	/^	char *agent;$/;"	m	struct:http_request
+alert	include/sysconfig.h	/^	int alert;\/\/是否产生警告信息$/;"	m	struct:sys_variable
+args	include/http.h	/^}args,*pargs;$/;"	t	typeref:struct:__anon9
+bhttp	include/sysconfig.h	/^	int bhttp;\/\/是否分析http协议$/;"	m	struct:sys_variable
+bicmp	include/sysconfig.h	/^	int bicmp;\/\/是否分析icmp协议$/;"	m	struct:sys_variable
+blank	analysis/func.c	/^char *blank(char *str){$/;"	f
+both	include/derule.h	/^	int both;$/;"	m	struct:ruledata
+both	include/derule.h	/^	int both;$/;"	m	struct:rulelink
+bpfuncline	analysis/derule.c	/^int bpfuncline(char *line,char *p[]){$/;"	f
+bskl	include/reasoning.h	/^struct bskl{$/;"	s
+bspcap_h	include/bspcap.h	2;"	d
+btcp	include/sysconfig.h	/^	int btcp;\/\/是否分析tcp协议$/;"	m	struct:sys_variable
+budp	include/sysconfig.h	/^	int budp;\/\/是否分析udp协议$/;"	m	struct:sys_variable
+callfunc	abuse/abuse.c	/^int callfunc(struct rule *r,struct function *f,void *dp,int type){$/;"	f
+checksum	include/icmp.h	/^	ushort checksum;$/;"	m	struct:icmpp
+checksum	include/tcp.h	/^	ushort checksum;$/;"	m	struct:tcpp
+chp	abuse/abuse.c	/^struct http_response *chp=NULL;\/\/2$/;"	v	typeref:struct:http_response
+chr	abuse/abuse.c	/^struct http_request *chr=NULL; \/\/1$/;"	v	typeref:struct:http_request
+chsum	include/ip.h	/^	ushort chsum;$/;"	m	struct:ipp
+chucksum	include/udp.h	/^	ushort chucksum;$/;"	m	struct:udpp
+cicmp	abuse/abuse.c	/^struct icmpp *cicmp=NULL;\/\/5$/;"	v	typeref:struct:icmpp
+code	include/http.h	/^	int code;\/\/状态代码$/;"	m	struct:http_response
+code	include/icmp.h	/^	uchar code;$/;"	m	struct:icmpp
+cookie	include/http.h	/^	char *cookie;$/;"	m	struct:http_request
+cookie	include/pdata.h	/^	char *cookie;$/;"	m	struct:head_http_requst
+createrulelink	analysis/derule.c	/^int createrulelink(){\/\/从规则文件路径数组中创建规则链$/;"	f
+createrulelink_f	analysis/derule.c	/^int createrulelink_f(char *file){ \/\/解析文件$/;"	f
+ctcp	abuse/abuse.c	/^struct tcpp *ctcp=NULL;\/\/3$/;"	v	typeref:struct:tcpp
+cudp	abuse/abuse.c	/^struct udpp *cudp=NULL;\/\/4$/;"	v	typeref:struct:udpp
+cufile	analysis/derule.c	/^char *cufile=NULL;$/;"	v
+culine	analysis/derule.c	/^int culine;$/;"	v
+data	include/pdata.h	/^	char *data;$/;"	m	struct:packet
+data	pcap/bspcap.c	/^u_char data[1600]={0};$/;"	v
+datatostruct	analysis/derule.c	/^int datatostruct(char *data[],struct ruledata *rd){$/;"	f
+dd	include/sysconfig.h	/^	struct decode_data dd;\/\/数据解码器(预处理模块)指针$/;"	m	struct:sys_config	typeref:struct:sys_config::decode_data
+debug_printf_data	pcap/bspcap.c	/^void debug_printf_data(struct info *cinfo,u_char *data){$/;"	f
+debug_printf_httpp	analysis/pdata.c	/^void debug_printf_httpp(struct http_response *hp){$/;"	f
+debug_printf_httpr	analysis/pdata.c	/^void debug_printf_httpr(struct http_request *hr){$/;"	f
+debug_printf_icmp	analysis/pdata.c	/^void debug_printf_icmp(struct icmpp *icmp){$/;"	f
+debug_printf_ip	analysis/pdata.c	/^void debug_printf_ip(struct ipp *ip){$/;"	f
+debug_printf_tcp	analysis/pdata.c	/^void debug_printf_tcp(struct tcpp *tcp){$/;"	f
+debug_printf_udp	analysis/pdata.c	/^void debug_printf_udp(struct udpp *udp){$/;"	f
+decode_data	include/sysconfig.h	/^struct decode_data{$/;"	s
+decode_rule	include/sysconfig.h	/^struct decode_rule{$/;"	s
+derule_h	include/derule.h	2;"	d
+desc	include/http.h	/^	char desc[10];\/\/描述$/;"	m	struct:http_response
+dip	include/derule.h	/^	uint  dip;\/\/规则目标ip地址$/;"	m	struct:rulelink
+dip	include/derule.h	/^	uint dip;$/;"	m	struct:iport
+dip	include/derule.h	/^	uint dip;$/;"	m	struct:ruledata
+dip	include/http.h	/^	char *dip;$/;"	m	struct:http_request
+dip	include/ip.h	/^	uint dip;$/;"	m	struct:ipp
+dm	include/sysconfig.h	/^	struct dynamic_module dm;\/\/动态模块指针$/;"	m	struct:sys_config	typeref:struct:sys_config::dynamic_module
+dmac	include/eth.h	/^	uchar dmac[6];$/;"	m	struct:eth
+dport	include/derule.h	/^	ushort dport;$/;"	m	struct:iport
+dport	include/derule.h	/^	ushort dport;$/;"	m	struct:ruledata
+dport	include/derule.h	/^	ushort dport;\/\/规则目标端口地址$/;"	m	struct:rulelink
+dport	include/http.h	/^	ushort dport;$/;"	m	struct:http_request
+dport	include/tcp.h	/^	ushort dport;$/;"	m	struct:tcpp
+dport	include/udp.h	/^	ushort dport;$/;"	m	struct:udpp
+dr	include/sysconfig.h	/^	struct decode_rule dr;\/\/规则解码器指针$/;"	m	struct:sys_config	typeref:struct:sys_config::decode_rule
+ds	include/tcp.h	/^	}ds;$/;"	m	struct:tcpp	typeref:struct:tcpp::dss
+dss	include/tcp.h	/^	struct dss{$/;"	s	struct:tcpp
+dt	include/derule.h	/^	uchar dt;\/\/data direction$/;"	m	struct:ruledata
+dym	include/sysconfig.h	/^	int dym;\/\/是否支持动态模块加载$/;"	m	struct:sys_variable
+dynamic_module	include/sysconfig.h	/^struct dynamic_module {$/;"	s
+echo	include/icmp.h	/^		}echo; \/* echo datagram *\/$/;"	m	union:icmpp::__anon5	typeref:struct:icmpp::__anon5::__anon6
+eth	include/eth.h	/^struct eth{$/;"	s
+eth_h	include/eth.h	2;"	d
+fc	include/reasoning.h	/^		struct klfunc *fc;$/;"	m	union:bskl::proof	typeref:struct:bskl::proof::klfunc
+fid	include/derule.h	/^	int fid;\/\/函数id号$/;"	m	struct:function
+fin	include/tcp.h	/^		ushort fin:1;$/;"	m	struct:tcpp::dss
+flag	include/ip.h	/^		ushort flag:3;$/;"	m	struct:ipp::__anon4
+fn	include/derule.h	/^	struct function fn[10];\/\/time型函数数组，最大支持10个表达式$/;"	m	struct:rtime	typeref:struct:rtime::function
+fn	include/derule.h	/^	struct function fn[10];\/\/子规则函数链表头指针$/;"	m	struct:rprocess	typeref:struct:rprocess::function
+fos	include/ip.h	/^	}fos;$/;"	m	struct:ipp	typeref:struct:ipp::__anon4
+frag	include/icmp.h	/^		}frag; \/* path mtu discovery *\/$/;"	m	union:icmpp::__anon5	typeref:struct:icmpp::__anon5::__anon7
+func	include/derule.h	/^	char *func;$/;"	m	struct:ruledata
+func_h	include/func.h	2;"	d
+funcid	include/reasoning.h	/^	int funcid;$/;"	m	struct:klfunc
+function	include/derule.h	/^struct function{$/;"	s
+gateway	include/icmp.h	/^		uint gateway; \/* gateway address *\/$/;"	m	union:icmpp::__anon5
+getcurrent	pcap/bspcap.c	/^void getcurrent(){$/;"	f
+getfuncid	analysis/func.c	/^int getfuncid(char *s){$/;"	f
+getpath	analysis/derule.c	/^int getpath(char *path,char *file){$/;"	f
+getvarid	analysis/func.c	/^int getvarid(char *name,struct rule *r,int type){$/;"	f
+getvarid_f	analysis/func.c	/^int getvarid_f(char *name){$/;"	f
+getvarid_r	analysis/func.c	/^int getvarid_r(char *name,struct rule *r,int type){$/;"	f
+getvarname	analysis/http.c	/^char *getvarname(char *data){$/;"	f
+getvarvalue	analysis/http.c	/^char *getvarvalue(char *data){$/;"	f
+getvarvalue_i	abuse/abuse.c	/^int getvarvalue_i(struct rule *r,struct variable_func *var){$/;"	f
+getvarvalue_s	abuse/abuse.c	/^char *getvarvalue_s(struct rule *r,struct variable_func *var){$/;"	f
+global_variable	include/sysconfig.h	/^struct global_variable {$/;"	s
+gv	analysis/sysconfig.c	/^struct sys_config gv={0};$/;"	v	typeref:struct:sys_config
+gv	include/sysconfig.h	/^	struct global_variable gv;\/\/全局变量指针$/;"	m	struct:sys_config	typeref:struct:sys_config::global_variable
+gvp	include/sysconfig.h	/^	void *gvp; \/\/变量指针$/;"	m	struct:global_variable
+hargs	include/pdata.h	/^	struct http_args **hargs;\/\/http请求参数二维数组指针$/;"	m	struct:head_http_requst	typeref:struct:head_http_requst::http_args
+head_http_requst	include/pdata.h	/^struct head_http_requst{$/;"	s
+hi	include/pdata.h	/^	struct head_icmp *hi; \/\/icmp协议关键数据结构指针$/;"	m	union:tyhead	typeref:struct:tyhead::head_icmp
+hlk	include/derule.h	/^	struct rule *hlk;\/\/检测http协议规则链头指针$/;"	m	struct:rulelink	typeref:struct:rulelink::rule
+host	include/http.h	/^	str host;$/;"	m	struct:http_request
+host	include/pdata.h	/^	char *host;$/;"	m	struct:head_http_requst
+hrq	include/pdata.h	/^	struct head_http_request *hrq;$/;"	m	struct:stream	typeref:struct:stream::head_http_request
+hrq	include/pdata.h	/^	struct head_http_request *hrq;\/\/同上，http请求$/;"	m	union:tyhead	typeref:struct:tyhead::head_http_request
+hrs	include/pdata.h	/^	struct head_http_respon *hrs;$/;"	m	struct:stream	typeref:struct:stream::head_http_respon
+hrs	include/pdata.h	/^	struct head_http_respon *hrs;\/\/同上，http响应$/;"	m	union:tyhead	typeref:struct:tyhead::head_http_respon
+ht	include/pdata.h	/^	struct head_tcp *ht;\/\/同上，tcp协议$/;"	m	union:tyhead	typeref:struct:tyhead::head_tcp
+http_getmethod	analysis/http.c	/^int http_getmethod(char *data){$/;"	f
+http_getrequest	analysis/http.c	/^int http_getrequest(uchar *data,struct http_request *hr){$/;"	f
+http_getresponse	analysis/http.c	/^int http_getresponse(uchar *data,struct http_response *hp){$/;"	f
+http_geturllen	analysis/http.c	/^int http_geturllen(char *url){$/;"	f
+http_getvalue	analysis/http.c	/^int http_getvalue(char *data,int *l){$/;"	f
+http_h	include/http.h	2;"	d
+http_isargs	analysis/http.c	/^int http_isargs(struct http_request *hr){$/;"	f
+http_request	include/http.h	/^struct http_request{$/;"	s
+http_response	include/http.h	/^struct http_response{$/;"	s
+http_setarg	analysis/http.c	/^int http_setarg(char *data,struct http_request *hr){$/;"	f
+http_setresponse	analysis/http.c	/^int http_setresponse(char *s,struct http_response *hp){$/;"	f
+httpargs	include/http.h	/^	args httpargs;\/\/请求参数$/;"	m	struct:http_request
+httpdata	analysis/http.c	/^char httpdata[1600]={0};$/;"	v
+hu	include/pdata.h	/^	struct head_udp *hu;\/\/同上，udp协议$/;"	m	union:tyhead	typeref:struct:tyhead::head_udp
+ic	include/sysconfig.h	/^	char ic[10];\/\/忽略符数组$/;"	m	struct:decode_rule
+icmp_getstruct	analysis/icmp.c	/^struct icmpp* icmp_getstruct(struct ipp *ip){$/;"	f
+icmp_h	include/icmp.h	2;"	d
+icmpp	include/icmp.h	/^struct icmpp{$/;"	s
+id	include/derule.h	/^	int id;$/;"	m	struct:ruledata
+id	include/derule.h	/^	int id;\/\/标识规则变量$/;"	m	struct:variable_func
+id	include/derule.h	/^	int id;\/\/规则唯一id号$/;"	m	struct:rtime
+id	include/derule.h	/^	int id;\/\/子规则唯一id号$/;"	m	struct:rprocess
+id	include/icmp.h	/^			ushort id;$/;"	m	struct:icmpp::__anon5::__anon6
+id	include/ip.h	/^	ushort id;$/;"	m	struct:ipp
+id	include/output.h	/^	int id;$/;"	m	struct:note
+id	include/reasoning.h	/^		int *id;$/;"	m	union:bskl::proof
+id	include/reasoning.h	/^	int id;\/\/知识唯一id号$/;"	m	struct:bskl
+igip	include/sysconfig.h	/^	uint igip[10];$/;"	m	struct:decode_rule
+igip	include/sysconfig.h	/^	uint igip[10];\/\/过滤ip数组 ,最大支持10个$/;"	m	struct:decode_data
+igport	include/sysconfig.h	/^	ushort igport[10];$/;"	m	struct:decode_rule
+igport	include/sysconfig.h	/^	ushort igport[10];\/\/过滤port数组,最大支持10个$/;"	m	struct:decode_data
+ilk	include/derule.h	/^	struct rule *ilk;\/\/检测icmp协议规则链头指针$/;"	m	struct:rulelink	typeref:struct:rulelink::rule
+info	include/bspcap.h	/^struct info{$/;"	s
+int_ntoa	pcap/ntest.c	10;"	d	file:
+ip	include/sysconfig.h	/^	uint ip; \/\/表示本机ip地址，ipaddr是一个ip地址结构$/;"	m	struct:sys_variable
+ip_gethlenght	analysis/ip.c	/^int ip_gethlenght(struct ipp *ip){$/;"	f
+ip_getstruct	analysis/ip.c	/^struct ipp* ip_getstruct(uchar *packet){$/;"	f
+ip_h	include/ip.h	2;"	d
+iport	include/derule.h	/^struct iport{$/;"	s
+ipp	include/ip.h	/^struct ipp{$/;"	s
+isame	analysis/derule.c	/^int isame(struct iport *iport1, struct iport *iport2){$/;"	f
+isame_both	analysis/derule.c	/^int isame_both(struct iport *iport1, struct iport *iport2,int both){$/;"	f
+isid	analysis/derule.c	/^int isid(char *id){$/;"	f
+isignore	analysis/derule.c	/^int isignore(char c){$/;"	f
+isip	analysis/derule.c	/^int isip(char *ip){$/;"	f
+islegal	analysis/derule.c	/^int islegal(char *data[],int ln){$/;"	f
+isport	analysis/derule.c	/^int isport(char *port){$/;"	f
+isstring	analysis/func.c	/^char *isstring(char *str){$/;"	f
+isuniq	analysis/derule.c	/^int isuniq(int id){$/;"	f
+klfunc	include/reasoning.h	/^struct klfunc{$/;"	s
+l	include/http.h	/^	int l;$/;"	m	struct:__anon9
+len	include/ip.h	/^		unsigned char len:4; \/\/头长度=version*len$/;"	m	struct:ipp::__anon3
+len	include/pdata.h	/^	int len;$/;"	m	struct:packet
+lenght	include/bspcap.h	/^	int lenght;$/;"	m	struct:info
+lenght	include/http.h	/^	int lenght;$/;"	m	struct:__anon8
+lenght	include/http.h	/^	int lenght;$/;"	m	struct:http_request
+lenght	include/ip.h	/^	ushort lenght;\/\/包长度$/;"	m	struct:ipp
+lenght	include/udp.h	/^	ushort lenght;$/;"	m	struct:udpp
+lex	script/lex.py	/^def lex(path):$/;"	f
+lex_line	script/lex.py	/^def lex_line(text):$/;"	f
+lineto	analysis/sysconfig.c	/^int lineto(char *p,int line){$/;"	f
+linetofunc	analysis/derule.c	/^int linetofunc(int type,struct rule *r,struct ruledata *rd){$/;"	f
+linetorule	analysis/derule.c	/^int linetorule(struct rulelink *rk,struct ruledata *rd){$/;"	f
+linetorules	analysis/derule.c	/^int linetorules(struct ruledata *rd){$/;"	f
+location	include/http.h	/^	char *location;\/\/跳转$/;"	m	struct:http_response
+log	include/sysconfig.h	/^	int log;\/\/是否产生记录信息$/;"	m	struct:sys_variable
+main	main/main.c	/^int main(int argc,char *argv[]){$/;"	f
+main	pcap/ntest.c	/^main ()$/;"	f
+main	pcap/test.c	/^int main()$/;"	f
+mask	include/sysconfig.h	/^	uint mask;\/\/表示网络掩码，用于识别本网段ip$/;"	m	struct:sys_variable
+method	include/http.h	/^	int method;$/;"	m	struct:http_request
+method	include/pdata.h	/^	char *method;$/;"	m	struct:head_http_requst
+modulep	analysis/sysconfig.c	/^char *modulep[20]={0};$/;"	v
+mpath	include/sysconfig.h	/^	char *mpath;\/\/模块路径$/;"	m	struct:dynamic_module
+msg	include/output.h	/^	char * msg;\/\/alert或log参数$/;"	m	struct:note
+msg1	include/sysconfig.h	/^	char *msg1;\/\/预定于消息1$/;"	m	struct:decode_rule
+msg2	include/sysconfig.h	/^	char *msg2;\/\/同上$/;"	m	struct:decode_rule
+msg3	include/sysconfig.h	/^	char *msg3;\/\/同上$/;"	m	struct:decode_rule
+mtu	include/icmp.h	/^			ushort mtu;$/;"	m	struct:icmpp::__anon5::__anon7
+mv	include/sysconfig.h	/^	struct mvariable *mv;\/\/模块配置变量$/;"	m	struct:dynamic_module	typeref:struct:dynamic_module::mvariable
+mvariable	include/sysconfig.h	/^struct mvariable{$/;"	s
+mvname	include/sysconfig.h	/^	char **mvname;\/\/模块变量名$/;"	m	struct:mvariable
+mvvalue	include/sysconfig.h	/^	char **mvvalue;\/\/模块变量值$/;"	m	struct:mvariable
+name	include/derule.h	/^	char *name;$/;"	m	struct:ruledata
+name	include/derule.h	/^	char *name;\/\/time型规则名$/;"	m	struct:rtime
+name	include/derule.h	/^	char *name;\/\/子规则名$/;"	m	struct:rprocess
+name	include/derule.h	/^	char name[24];$/;"	m	struct:variable_rule
+name	include/http.h	/^	str name[10]; \/\/参数名$/;"	m	struct:__anon9
+next	include/derule.h	/^	struct rprocess *next;\/\/下一子规则结构$/;"	m	struct:rprocess	typeref:struct:rprocess::rprocess
+next	include/derule.h	/^	struct rule *next;\/\/下一地址检测类别$/;"	m	struct:rule	typeref:struct:rule::rule
+next	include/derule.h	/^	struct rulelink *next;\/\/下一个地址规则结构体指针$/;"	m	struct:rulelink	typeref:struct:rulelink::rulelink
+next	include/sysconfig.h	/^	struct dynamic_module *next;\/\/下一模块指针$/;"	m	struct:dynamic_module	typeref:struct:dynamic_module::dynamic_module
+next	include/sysconfig.h	/^	struct global_variable *next;\/\/下一个变量结构指针$/;"	m	struct:global_variable	typeref:struct:global_variable::global_variable
+note	include/output.h	/^struct note{$/;"	s
+offset	include/ip.h	/^		ushort offset:13;$/;"	m	struct:ipp::__anon4
+offset	include/tcp.h	/^		ushort offset:4;$/;"	m	struct:tcpp::dss
+op	include/output.h	/^	struct pdata *op;\/\/数据结构指针$/;"	m	struct:note	typeref:struct:note::pdata
+op	include/sysconfig.h	/^	struct out_print op;\/\/输出结构指针$/;"	m	struct:sys_config	typeref:struct:sys_config::out_print
+opfunc	analysis/derule.c	/^int opfunc(struct function *fc,struct rule *r,char *fl){ \/\/根据函数动作如：alert（"test");转化成函数结构$/;"	f
+out_print	include/sysconfig.h	/^struct out_print{$/;"	s
+output_h	include/output.h	2;"	d
+packet	include/pdata.h	/^struct packet{$/;"	s
+packet_handler	pcap/bspcap.c	/^void packet_handler(u_char *param, const struct pcap_pkthdr *header, const u_char *pkt_data)$/;"	f
+parameter	include/reasoning.h	/^	char *parameter;$/;"	m	struct:klfunc
+pargs	include/http.h	/^}args,*pargs;$/;"	t	typeref:struct:__anon9
+pdata	include/pdata.h	/^struct pdata{$/;"	s
+pdata_h	include/pdata.h	2;"	d
+pf	include/reasoning.h	/^	};*pf;$/;"	m	struct:bskl
+pid	include/derule.h	/^	uchar pid;\/\/process of rule id$/;"	m	struct:ruledata
+platform_h	include/platform.h	2;"	d
+post	include/http.h	/^	str post;$/;"	m	struct:http_request
+probability	include/reasoning.h	/^	int probability;\/\/可信度$/;"	m	struct:bskl
+proof	include/reasoning.h	/^	union proof{\/\/证据指针$/;"	u	struct:bskl
+protocol	include/eth.h	/^	ushort protocol;$/;"	m	struct:eth
+protocol	include/output.h	/^	int protocol;\/\/协议$/;"	m	struct:note
+protocol	include/pdata.h	/^	int protocol;\/\/最上层协议$/;"	m	struct:packet
+psh	include/tcp.h	/^		ushort psh:1;$/;"	m	struct:tcpp::dss
+pstr	include/http.h	/^}str,*pstr;$/;"	t	typeref:struct:__anon8
+pt	include/derule.h	/^	struct variable_func pt[2];\/\/函数参数链表头指针$/;"	m	struct:function	typeref:struct:function::variable_func
+pt	include/derule.h	/^	uchar pt;\/\/protocol type$/;"	m	struct:ruledata
+pt	include/pdata.h	/^	struct packet *pt;$/;"	m	union:tydata	typeref:struct:tydata::packet
+reaformat	include/sysconfig.h	/^	char *reaformat;\/\/推理警告输出格式$/;"	m	struct:out_print
+realert	include/sysconfig.h	/^	char *realert;\/\/推理告警路径$/;"	m	struct:out_print
+reasoning_h	include/reasoning.h	2;"	d
+referer	include/http.h	/^	char *referer;$/;"	m	struct:http_request
+regexes_fc	script/lex.py	/^    regexes_fc=[re.compile(p)$/;"	v
+regexes_id	script/lex.py	/^    regexes_id=re.compile('[a-zA-Z]\\w*')#id string$/;"	v
+regexes_int	script/lex.py	/^    regexes_int=re.compile('[0-9]+')$/;"	v
+regexes_kw	script/lex.py	/^    regexes_kw=[re.compile(p)$/;"	v
+regexes_oc	script/lex.py	/^    regexes_oc=[re.compile(p)$/;"	v
+regexes_pv	script/lex.py	/^    regexes_pv=re.compile('[@#][a-zA-Z\\.]+')#protocol variable$/;"	v
+regexes_rv	script/lex.py	/^    regexes_rv=re.compile('\\$\\w+')#rule variable$/;"	v
+regexes_str	script/lex.py	/^    regexes_str=re.compile('\\".*\\"')#string$/;"	v
+relformat	include/sysconfig.h	/^	char *relformat;\/\/推理记录输出格式$/;"	m	struct:out_print
+relog	include/sysconfig.h	/^	char *relog;\/\/推理记录路径$/;"	m	struct:out_print
+request	include/http.h	/^	str request;\/\/请求行数据据$/;"	m	struct:http_request
+request	include/pdata.h	/^	char *request;\/\/http请求行，包括方法，url和http协议版本$/;"	m	struct:head_http_requst
+result	include/reasoning.h	/^	char *result;\/\/推理结果$/;"	m	struct:bskl
+retain	include/tcp.h	/^		ushort retain:6;$/;"	m	struct:tcpp::dss
+risk	include/reasoning.h	/^	int risk;\/\/风险等级$/;"	m	struct:bskl
+rks	analysis/derule.c	/^struct rulelink *rks=NULL;$/;"	v	typeref:struct:rulelink
+rp	include/derule.h	/^	struct rprocess *rp;$/;"	m	union:tprule	typeref:struct:tprule::rprocess
+rpath	include/sysconfig.h	/^	char *rpath;\/\/系统根路径$/;"	m	struct:sys_variable
+rprocess	include/derule.h	/^struct rprocess{ \/\/过程式检测规则集合链表$/;"	s
+rst	include/tcp.h	/^		ushort rst:1;$/;"	m	struct:tcpp::dss
+rt	include/derule.h	/^	struct rtime *rt;$/;"	m	union:tprule	typeref:struct:tprule::rtime
+rt	include/derule.h	/^	uchar rt;\/\/rule type$/;"	m	struct:ruledata
+rtime	include/derule.h	/^struct rtime{$/;"	s
+rule	include/derule.h	/^struct rule{$/;"	s
+ruledata	include/derule.h	/^struct ruledata{$/;"	s
+rulelink	include/derule.h	/^struct rulelink{$/;"	s
+rulep	analysis/sysconfig.c	/^char *rulep[20]={0};$/;"	v
+run	pcap/bspcap.c	/^int run()$/;"	f
+search_c	analysis/http.c	/^int search_c(char *s,char c){$/;"	f
+seq	include/icmp.h	/^			ushort seq;$/;"	m	struct:icmpp::__anon5::__anon6
+seq	include/tcp.h	/^	uint seq;$/;"	m	struct:tcpp
+server	include/http.h	/^	char *server;\/\/服务器$/;"	m	struct:http_response
+set_addself	analysis/func.c	/^int set_addself(struct rule *r, struct function *f, char *var){$/;"	f
+set_alert	analysis/func.c	/^int set_alert(struct rule *r, struct function *f, char *var){$/;"	f
+set_delself	analysis/func.c	/^int set_delself(struct rule *r, struct function *f, char *var){$/;"	f
+set_equal	analysis/func.c	/^int set_equal(struct rule *r, struct function *f, char *var1,char *var2){$/;"	f
+set_function	analysis/func.c	/^int set_function(struct rule *r,struct function *f,char *fl){$/;"	f
+set_go	analysis/func.c	/^int set_go(struct rule *r, struct function *f, char *var){$/;"	f
+set_greater	analysis/func.c	/^int set_greater(struct rule *r, struct function *f, char *var1,char *var2){$/;"	f
+set_httpagent	analysis/func.c	/^int set_httpagent(struct rule *r, struct function *f, char *var){$/;"	f
+set_httpargs	analysis/func.c	/^int set_httpargs(struct rule *r, struct function *f, char *var1, char *var2){$/;"	f
+set_httpcookie	analysis/func.c	/^int set_httpcookie(struct rule *r, struct function *f, char *var){$/;"	f
+set_httpgargs	analysis/func.c	/^int set_httpgargs(struct rule *r, struct function *f, char *var1, char *var2){$/;"	f
+set_httphead	analysis/func.c	/^int set_httphead(struct rule *r, struct function *f, char *var){$/;"	f
+set_httpinfo	analysis/func.c	/^int set_httpinfo(struct rule *r, struct function *f,char *var1,char *var2){$/;"	f
+set_httppargs	analysis/func.c	/^int set_httppargs(struct rule *r, struct function *f, char *var1, char *var2){$/;"	f
+set_httpserver	analysis/func.c	/^int set_httpserver(struct rule *r, struct function *f, char *var){$/;"	f
+set_httpurl	analysis/func.c	/^int set_httpurl(struct rule *r, struct function *f, char *var){$/;"	f
+set_icmpdata	analysis/func.c	/^int set_icmpdata(struct rule *r, struct function *f, char *var){$/;"	f
+set_icmpinfo	analysis/func.c	/^int set_icmpinfo(struct rule *r, struct function *f, char *var1, char *var2){$/;"	f
+set_less	analysis/func.c	/^int set_less(struct rule *r, struct function *f, char *var1,char *var2){$/;"	f
+set_log	analysis/func.c	/^int set_log(struct rule *r, struct function *f, char *var){$/;"	f
+set_tcpdata	analysis/func.c	/^int set_tcpdata(struct rule *r, struct function *f, char *var){$/;"	f
+set_tcpinfo	analysis/func.c	/^int set_tcpinfo(struct rule *r, struct function *f, char *var1, char *var2){$/;"	f
+set_udpdata	analysis/func.c	/^int set_udpdata(struct rule *r, struct function *f, char *var){$/;"	f
+set_udpinfo	analysis/func.c	/^int set_udpinfo(struct rule *r, struct function *f,char *var1,char *var2){$/;"	f
+set_unequal	analysis/func.c	/^int set_unequal(struct rule *r, struct function *f, char *var1,char *var2){$/;"	f
+setiport	analysis/derule.c	/^int setiport(struct ruledata *rd,char *sip,char *dip,char *sport,char *dport){$/;"	f
+sip	include/derule.h	/^	uint  sip;\/\/规则源ip地址$/;"	m	struct:rulelink
+sip	include/derule.h	/^	uint sip;$/;"	m	struct:iport
+sip	include/derule.h	/^	uint sip;$/;"	m	struct:ruledata
+sip	include/http.h	/^	char *sip;$/;"	m	struct:http_request
+sip	include/ip.h	/^	uint sip;$/;"	m	struct:ipp
+sm	include/pdata.h	/^	struct stream *sm;$/;"	m	union:tydata	typeref:struct:tydata::stream
+smac	include/eth.h	/^	uchar smac[6];$/;"	m	struct:eth
+sort	script/lex.py	/^def sort(result):$/;"	f
+sport	include/derule.h	/^	ushort sport;$/;"	m	struct:iport
+sport	include/derule.h	/^	ushort sport;$/;"	m	struct:ruledata
+sport	include/derule.h	/^	ushort sport;\/\/规则源端口地址$/;"	m	struct:rulelink
+sport	include/http.h	/^	ushort sport;$/;"	m	struct:http_request
+sport	include/tcp.h	/^	ushort sport;$/;"	m	struct:tcpp
+sport	include/udp.h	/^	ushort sport;$/;"	m	struct:udpp
+start_packet	analysis/pdata.c	/^int start_packet(struct info *cinfo,u_char *data){$/;"	f
+str	include/derule.h	/^		char *str;$/;"	m	union:variable_func::__anon1
+str	include/derule.h	/^		char *str;$/;"	m	union:variable_rule::__anon2
+str	include/http.h	/^	char *str;$/;"	m	struct:__anon8
+str	include/http.h	/^}str,*pstr;$/;"	t	typeref:struct:__anon8
+stream	include/pdata.h	/^struct stream{$/;"	s
+stream	include/sysconfig.h	/^	int stream;\/\/是否开启流重组$/;"	m	struct:decode_data
+strlen_h	analysis/http.c	/^int strlen_h(char *s){$/;"	f
+strsearch_fl	analysis/http.c	/^int strsearch_fl(char *src,char *sub,int l){$/;"	f
+strtoks	analysis/http.c	/^int strtoks(char *data,char c,int len,int *vl){$/;"	f
+summary	analysis/derule.c	/^void summary(){ \/\/输出所有规则处理后的总结信息$/;"	f
+sv	include/sysconfig.h	/^	struct sys_variable sv; \/\/系统变量指针$/;"	m	struct:sys_config	typeref:struct:sys_config::sys_variable
+syn	include/tcp.h	/^		ushort syn:1;$/;"	m	struct:tcpp::dss
+sys_config	include/sysconfig.h	/^struct sys_config{$/;"	s
+sys_variable	include/sysconfig.h	/^struct sys_variable{$/;"	s
+sysconfig	analysis/sysconfig.c	/^int sysconfig(char *p){$/;"	f
+sysconfig_h	include/sysconfig.h	2;"	d
+tcp_callback	pcap/ntest.c	/^tcp_callback (struct tcp_stream *a_tcp, void ** this_time_not_needed)$/;"	f
+tcp_getdata	analysis/tcp.c	/^uchar* tcp_getdata(struct tcpp *tcp){$/;"	f
+tcp_getstruct	analysis/ip.c	/^struct tcpp* tcp_getstruct(struct ipp *ip){$/;"	f
+tcp_h	include/tcp.h	2;"	d
+tcp_ishttp	analysis/tcp.c	/^int tcp_ishttp(uchar *data){$/;"	f
+tcp_stream	include/pdata.h	/^struct tcp_stream{$/;"	s
+tcpp	include/tcp.h	/^struct tcpp{$/;"	s
+td	include/pdata.h	/^	union tyhead td;$/;"	m	struct:pdata	typeref:union:pdata::tyhead
+text	script/lex.py	/^text='jiangxi'$/;"	v
+th	include/pdata.h	/^	union tyhead th;\/\/$/;"	m	struct:packet	typeref:union:packet::tyhead
+time	include/bspcap.h	/^	char time[24];$/;"	m	struct:info
+time	include/output.h	/^	char *time;$/;"	m	struct:note
+time	include/pdata.h	/^	time_t time;\/\/接收数据包时间$/;"	m	struct:packet
+tlk	include/derule.h	/^	struct rule *tlk;\/\/检测tcp协议规则链头指针$/;"	m	struct:rulelink	typeref:struct:rulelink::rule
+tos	include/ip.h	/^	unsigned char tos;\/\/tos,服务代码$/;"	m	struct:ipp
+tp	include/derule.h	/^	union tprule tp;\/\/共用体，根据type指向rrule或rprocess数组结构,每个过程支持10条子规则$/;"	m	struct:rule	typeref:union:rule::tprule
+tp	include/ip.h	/^	unsigned char tp; \/\/协议类型$/;"	m	struct:ipp
+tprule	include/derule.h	/^union tprule{$/;"	u
+ts	include/pdata.h	/^	int ts;$/;"	m	struct:tcp_stream
+ts	include/pdata.h	/^	struct tcp_stream *ts;\/\/tcp流结构$/;"	m	struct:stream	typeref:struct:stream::tcp_stream
+ttl	include/ip.h	/^	unsigned char ttl; \/\/生存时间$/;"	m	struct:ipp
+tydata	include/pdata.h	/^union tydata{$/;"	u
+tyhead	include/pdata.h	/^union tyhead{$/;"	u
+type	include/derule.h	/^	int type;$/;"	m	struct:variable_rule
+type	include/derule.h	/^	int type;\/\/变量类型$/;"	m	struct:variable_func
+type	include/derule.h	/^	int type;\/\/规则类型，time或者process$/;"	m	struct:rule
+type	include/icmp.h	/^	uchar type;$/;"	m	struct:icmpp
+type	include/output.h	/^	int type; \/\/输出信息类型$/;"	m	struct:note
+type	include/pdata.h	/^	int type;\/\/类型，packet或者stream$/;"	m	struct:pdata
+type	include/reasoning.h	/^	int type;\/\/知识类型，有alone和CNF型，即单例型和合取型。$/;"	m	struct:bskl
+type	include/sysconfig.h	/^	int type;\/\/设置输出方式$/;"	m	struct:out_print
+uchar	include/sysconfig.h	/^typedef unsigned char uchar;$/;"	t
+uchar	include/type.h	3;"	d
+udp_getdata	analysis/udp.c	/^uchar *udp_getdata(struct udpp *udp){$/;"	f
+udp_getstruct	analysis/udp.c	/^struct udpp* udp_getstruct(struct ipp *ip){$/;"	f
+udp_h	include/udp.h	2;"	d
+udpp	include/udp.h	/^struct udpp{$/;"	s
+uint	include/sysconfig.h	/^typedef unsigned int uint;$/;"	t
+uint	include/type.h	6;"	d
+ulk	include/derule.h	/^	struct rule *ulk;\/\/检测udp协议规则链头指针$/;"	m	struct:rulelink	typeref:struct:rulelink::rule
+ulong	include/type.h	5;"	d
+un	include/icmp.h	/^	}un;$/;"	m	struct:icmpp	typeref:union:icmpp::__anon5
+urg	include/tcp.h	/^		ushort urg:1;$/;"	m	struct:tcpp::dss
+urgp	include/tcp.h	/^	ushort urgp;$/;"	m	struct:tcpp
+url	include/pdata.h	/^	char *url;$/;"	m	struct:head_http_requst
+ushort	include/sysconfig.h	/^typedef unsigned short ushort;$/;"	t
+ushort	include/type.h	4;"	d
+value	include/derule.h	/^	}value;$/;"	m	struct:variable_func	typeref:union:variable_func::__anon1
+value	include/derule.h	/^	}value;$/;"	m	struct:variable_rule	typeref:union:variable_rule::__anon2
+value	include/http.h	/^	str value[10];\/\/参数值$/;"	m	struct:__anon9
+var	include/derule.h	/^		int var;$/;"	m	union:variable_func::__anon1
+var	include/derule.h	/^		int var;$/;"	m	union:variable_rule::__anon2
+variable_func	include/derule.h	/^struct variable_func{$/;"	s
+variable_rule	include/derule.h	/^struct variable_rule{$/;"	s
+vb	include/derule.h	/^	struct variable_rule vb[10];\/\/规则变量链表头指针$/;"	m	struct:rule	typeref:struct:rule::variable_rule
+version	include/ip.h	/^		unsigned char version:4; \/\/版本号$/;"	m	struct:ipp::__anon3
+vl	include/ip.h	/^	}vl;$/;"	m	struct:ipp	typeref:struct:ipp::__anon3
+window	include/tcp.h	/^	ushort window;$/;"	m	struct:tcpp

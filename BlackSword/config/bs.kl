@@ -1,0 +1,14 @@
+#risk 1 2 3 4
+id:1; condition:maxargs_g(30);result:abnormal; probability:30; risk:1
+id:2; condition:lenhost_g(30);result:abnormal; probability;80; risk:2
+id:3; condition:httpurl('////'); result:abnormal; probability:90; risk:3
+id:4; condition:httpurl('../|\..'); result:abnormal; probability:50; risk:3
+id:5; condition:args('http|https'); result:remote file; probability:70; risk:4
+id:6; condition:args('%7c|%26'); result:command exec; probability:80; risk:4
+id:7; condition:args('script'); result:XSS; probability:80; risk:3
+id:8; condition:args('select|update'); result:sql inject; porbability:20; risk:4
+id:9; condition:httprepeat(10); result:abnormal; probability:30; risk:3
+
+
+id:; condition:$1,$3;result:sql inject; probability:50; risk:alert
+

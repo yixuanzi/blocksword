@@ -1,0 +1,42 @@
+icmpbackdoor:
+	type=trigger
+	protocol=icmp
+	$icmpback++
+	if find(icmp.data,"cmd.exe" || "/bin/sh" || "*\\*\\*"(contain path)):
+		alert("This system attack by icmpbackdoor")
+	if $icmpback>10:
+		alert("This system attack by icmpbackdoor")
+
+teardrop:
+	type=normal
+	protocol=ip
+	continuation=yes
+	if @ip.flag.DF==0 && @ip.flag.MF==1:
+		if #ip.flag.DF==0 && #ip.id==ip.id && #ip.flag.offset<@ip.flag.offset£º
+			alert("teardrop attack..........")
+
+pingscan:
+	type=normal
+	protocol=icmp
+	continuation=yes
+	if @icmp.date.len>65535
+		alert("icmpFlood from $pack.souip")
+		return
+	if @icmp.code==0,8 && $Ping<5:
+		$Ping++
+	if @icmp.data!=#icmp.data:
+		goto icmpbackdoor
+	if $Ping>5:
+		log("pingscan from $pack.souip")
+
+synscan:
+	type=normal
+	protocol=tcp
+	if tcp.ACK && tcp.SYN:
+		$tcp++
+	if tcp.ACK && tcp.SYN==0:
+		$tcp--
+	if $tcp>10:
+		log("SYNscan by $pack.souip")
+	if $tcp>50:
+		alert("SYNFlood from $pack.souip")

@@ -1,0 +1,1 @@
+BSRule http any any -> any any time_test 1 {httpurl("/bstest");log("this is a test");}
